@@ -1,0 +1,1 @@
+{"mappings":"AAEA,KACE,cCDF","sources":["src/css/style.scss","%3Cinput%20css%20oiDOMj%3E"],"sourcesContent":["@import 'core/variables';\n\nbody {\n  background: $primary;\n}","body {\n  background: red;\n}\n/*# sourceMappingURL=index.5c93b376.css.map */\n"],"names":[],"version":3,"file":"index.5c93b376.css.map"}
