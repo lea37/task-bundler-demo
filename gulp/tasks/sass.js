@@ -7,7 +7,7 @@ const cssnano       = require("cssnano")
 const autoprefixer  = require('autoprefixer')
 
 function sassBundle(cb) {
-  return src('src/css/**/style.scss', { sourcemaps: true })
+  return src('src/scss/**/style.scss', { sourcemaps: true })
     .pipe(sass())
     .on('error', notify.onError(function (error) {
         return "Sass: " + error.message;
