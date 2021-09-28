@@ -1,1 +1,1 @@
-{"version":3,"sources":["style.scss","style.css"],"names":[],"mappings":"AAEA,KACE,wBCDF","file":"style.css","sourcesContent":["@import 'core/variables';\n\nbody {\n  background-color: $primary;\n}","body {\n  background-color: #6b8314;\n}"]}
+{"version":3,"sources":["style.scss","style.css"],"names":[],"mappings":"AAEA,KACE,wBCDF","file":"style.css","sourcesContent":["@import 'core/variables';\n\nbody {\n  background-color: $primary;\n}","body {\n  background-color: #fcdfdf;\n}"]}

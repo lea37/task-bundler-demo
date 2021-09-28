@@ -6,7 +6,7 @@ const { browsersyncReload } = require('./livereload')
 function watcher() {
   watch('*.html', browsersyncReload)
   watch(
-    ['src/css/**/**/*.scss', 'src/js/**/*.js'],
+    ['src/scss/**/**/*.scss', 'src/js/**/*.js'],
     series(sassBundle, jsBundle, browsersyncReload));
 }
 

@@ -7,7 +7,7 @@ const { watcher }               = require('./tasks/watch')
 
 
 exports.default = series(sassBundle, jsBundle)
-exports.watch = series(browsersyncServe, watcher)
+exports.watch = series(clean, browsersyncServe, watcher)
 
 if (process.env.NODE_ENV === 'production') {
   exports.build = series(
