@@ -2,7 +2,7 @@ import '../../scss/header.scss'
 
 class Header {
   constructor() {
-    console.log('Header have a background');
+    document.querySelector('.js-header').innerHTML = 'Hello world !'
   }
 }
 
