@@ -1,0 +1,1 @@
+{"mappings":"AAEA;EACE,YCHQ","sources":["src/scss/style.scss","src/scss/core/_variables.scss"],"sourcesContent":["@import 'core/variables';\n\nbody {\n  background: $primary;\n}",null],"names":[],"version":3,"file":"index.fd3751ca.css.map","sourceRoot":"/__parcel_source_root/"}
